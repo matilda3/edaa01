@@ -8,7 +8,7 @@ public class TakePinsGame {
 		Board board = new Board();
 		board.setUp(10);
 		Player p1 = new HumanPlayer("P1");
-		Player p2 = new ComputerPlayer("P2");
+		Player p2 = new ComputerPlayerv2("P2");
 		
 		while(board.getNoPins() >  0) {
 			int a = 0;
