@@ -17,6 +17,16 @@ public class GeneralWordCounter implements TextProcessor {
 		this.m = new HashMap<String, Integer>();
 		this.set = u;
 	}
+	
+	/**
+	 * Returns list of word-amount pairs
+	 * @return list of word-amount pairs
+	 */
+	public List <Map.Entry<String, Integer>> getWordList(){
+		Set<Map.Entry<String, Integer>> wordSet = m.entrySet();
+		List<Map.Entry<String, Integer>> wordList = new ArrayList<>(wordSet);
+		return wordList;
+	}
 
 	@Override
 	public void process(String w) {

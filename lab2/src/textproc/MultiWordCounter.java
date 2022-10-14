@@ -16,6 +16,7 @@ public class MultiWordCounter implements TextProcessor {
 	}
 
 	@Override
+	//anvnd containkey
 	public void process(String w) {
 		for(String key : map.keySet()) {
 			if(w.equals(key)) {
