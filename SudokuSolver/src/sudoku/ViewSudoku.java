@@ -18,6 +18,7 @@ public class ViewSudoku {
 	private boolean badInput;
 	
 	public static void main(String[] args) {
+		//test
 		int[][] matrix = {{0, 0, 0, 0, 0, 0, 0, 0, 0},
 								  {0, 0, 0, 0, 0, 0, 0, 0, 0},
 								  {0, 0, 0, 0, 0, 0, 0, 0, 0},
