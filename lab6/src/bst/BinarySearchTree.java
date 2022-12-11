@@ -20,10 +20,10 @@ public class BinarySearchTree<E> {
 	  tree.add(7);
 	  tree.add(8);
 	  tree.add(1);
-	 // tree.printTree();
-	  //v.drawTree(tree);
-	  tree.rebuild();
+	  tree.printTree();
 	  v.drawTree(tree);
+	  tree.rebuild();
+	  //v.drawTree(tree);
   }
     
 	/**
